@@ -120,7 +120,7 @@ export default class Header extends Component {
                                                 <Link className="nav-link px-lg-3" to="/Projects">Проекты</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link className="nav-link px-lg-3" to="#">Контакты</Link>
+                                                <Link className="nav-link px-lg-3" to="/Contacts/">Контакты</Link>
                                             </li>
                                         </ul>
                                         <div className="text-white m-1 p-3">

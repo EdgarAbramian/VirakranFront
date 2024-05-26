@@ -10,6 +10,7 @@ import Cranes from "./Pages/Cranes";
 import About from "./Pages/About";
 import Projects from "./Pages/Projects";
 import CraneDes from "./Pages/CraneDes";
+import Contacts from "./Pages/Contacts";
 
 const router = createBrowserRouter([
     {
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
     {
         path: '/Cranes/:name',
         element: <CraneDes/>,
+        errorElement: <h1>404</h1>,
+    },
+    {
+        path: '/Contacts/',
+        element: <Contacts/>,
         errorElement: <h1>404</h1>,
     },
 ]);
