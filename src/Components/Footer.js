@@ -1,12 +1,12 @@
 import React from 'react';
 import {MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn, MDBInput} from 'mdb-react-ui-kit';
 
-import './Footer.css';
+import './style.css';
 
 
-export default function App() {
+export default function Footer() {
     return (
-        <div className='my-FooterClass'>
+        <div className='my-FooterClass' style={{marginTop: '-48px'}}>
             <MDBFooter className='text-center text-lg-start text-muted'>
                 <section className='m-5'>
                     <form action='' className='My-Form-for-email'>

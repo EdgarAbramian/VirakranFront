@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-import libHer from './liebherr_card.jpg';
+import libHer from '../assets/liebherr_card.jpg';
 import {Link} from "react-router-dom";
 
 export default function CardSetter() {
@@ -16,11 +16,9 @@ export default function CardSetter() {
                         <Card >
                             <Card.Img variant="top" src={libHer} />
                             <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit
-                                    longer.
+                                <Card.Title style={{textAlign: 'center'}}>Liebherr 90 EC-B6</Card.Title>
+                                <Card.Text style={{textAlign: 'center'}}>
+                                    Crane Short Description.
                                 </Card.Text>
                             </Card.Body>
                         </Card>

@@ -1,11 +1,11 @@
 import React from 'react';
 import { MDBCarousel, MDBCarouselItem, MDBCarouselCaption } from 'mdb-react-ui-kit';
 
-import slideImg from './slideImg.jpg'
-import slideImg1 from './slideImg1.jpg'
-import slideImg2 from './liebherr.jpg'
+import slideImg from '../assets/slideImg.jpg'
+import slideImg1 from '../assets/slideImg1.jpg'
+import slideImg2 from '../assets/liebherr.jpg'
 
-import './MainSlides.css'
+import './style.css'
 
 export default function MainSlides() {
     return (

@@ -3,13 +3,14 @@ import React, {Component, Fragment} from 'react';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../Main.css'
+import '../Components/style.css'
 
 import logo from '../assets/logoVK.png'
 import telephone_logo from '../assets/telephone-inbound.png'
 import email_logo from '../assets/email_icone.png'
 import location_logo from '../assets/location_icone.png'
 import {Link} from "react-router-dom";
+import RentService from "../Pages/RentService";
 
 
 export default class Header extends Component {
@@ -97,7 +98,7 @@ export default class Header extends Component {
                                                     Услуги
                                                 </a>
                                                 <ul className="dropdown-menu">
-                                                    <li><Link className="dropdown-item" to="#">Аренда Грузоподемной
+                                                    <li><Link className="dropdown-item" to="/RentService">Аренда Грузоподемной
                                                         техники</Link></li>
                                                     <li><Link className="dropdown-item" to="#">Монтаж Грузоподемной
                                                         техники</Link></li>

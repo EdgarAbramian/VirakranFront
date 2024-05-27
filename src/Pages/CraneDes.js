@@ -5,7 +5,7 @@ import MediaQuery from "react-responsive";
 import {Image} from "react-bootstrap";
 import Table from 'react-bootstrap/Table';
 
-import '../Components/CranSlides.css'
+import '../Components/style.css'
 export default class CraneDes  extends Component {
 
     render() {
@@ -19,7 +19,7 @@ export default class CraneDes  extends Component {
                         <hr/>
                         <h1>Liebherr 90 EC-B6</h1>
                         <hr/>
-                        <Image className={'Cran-Desktop-Image'} src={require('../Components/liebherr_card.jpg')}
+                        <Image className={'Cran-Desktop-Image'} src={require('../assets/liebherr_card.jpg')}
                                rounded/>
                         <div className='CraneDes-Desctop-Table' style={{color: '#cfcfcf'}}>
                             <h3 style={{color: '#2b2a29', textAlign: 'center'}}> Технические Характеристики</h3>
@@ -77,7 +77,7 @@ export default class CraneDes  extends Component {
                 {/*Mobile*/}
                 <MediaQuery query='(max-device-width: 1224px)'>
                 <div className='CraneDes-Mobile' style={{backgroundColor: '#ffffff'}}>
-                        <Image className={'Cran-Mobile-Image'} src={require('../Components/liebherr_card.jpg')}
+                        <Image className={'Cran-Mobile-Image'} src={require('../assets/liebherr_card.jpg')}
                                rounded/>
 
                         <div className='CraneDes-Mobile-Table' style={{color: '#cfcfcf'}}>
