@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBRow, MDBCol, MDBInput, MDBTextArea } from 'mdb-react-ui-kit';
 
-import './style.css'
+import '../style.css'
 
 
 export default function ContactUs() {

@@ -5,7 +5,7 @@ import slideImg from '../assets/slideImg.jpg'
 import slideImg1 from '../assets/slideImg1.jpg'
 import slideImg2 from '../assets/liebherr.jpg'
 
-import './style.css'
+import '../style.css'
 
 export default function MainSlides() {
     return (

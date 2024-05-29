@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../Components/style.css'
+import '../style.css'
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import RentServ from "../Components/RentServ";
