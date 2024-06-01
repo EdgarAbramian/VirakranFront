@@ -8,7 +8,6 @@ import {Link} from "react-router-dom";
 
 export default function CardSetter() {
     return (
-
         <Row xs={1} md={3} className="g-4 m-5" id="MYcards">
             {Array.from({ length: 4 }).map((_, idx) => (
                 <Col key={idx}>

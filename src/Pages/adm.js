@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
-import ContactUs from "../Components/ContactUs";
+
 
 export default class Adm extends Component {
     render() {
@@ -35,7 +35,6 @@ export default class Adm extends Component {
                         </button>
                         <div></div>
                     </div>
-
                 </div>
                 <Footer/>
             </div>

@@ -5,7 +5,7 @@ import MediaQuery from "react-responsive";
 import {Image} from "react-bootstrap";
 import Table from 'react-bootstrap/Table';
 
-import '../style.css'
+import '../Components/style.css'
 export default class CraneDes  extends Component {
 
     render() {

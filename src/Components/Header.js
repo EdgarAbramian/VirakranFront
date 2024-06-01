@@ -10,12 +10,25 @@ import telephone_logo from '../assets/telephone-inbound.png'
 import email_logo from '../assets/email_icone.png'
 import location_logo from '../assets/location_icone.png'
 import {Link} from "react-router-dom";
-import RentService from "../Pages/RentService";
-
+const cors = require('cors');
 
 export default class Header extends Component {
+
+
+    componentDidMount() {
+        // Make an API call
+        fetch('http://127.0.0.1:8001/cran/brand')
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    }
+
     render() {
-        return (
+         return (
             <>
                 <nav className="Main-Navbar">
                     <div className="container-fluid p-0">
@@ -100,8 +113,7 @@ export default class Header extends Component {
                                                 <ul className="dropdown-menu">
                                                     <li><Link className="dropdown-item" to="/RentService">Аренда Грузоподемной
                                                         техники</Link></li>
-                                                    {/*<li><Link className="dropdown-item" to="#">Монтаж Грузоподемной*/}
-                                                    {/*    техники</Link></li>*/}
+
                                                 </ul>
                                             </li>
                                             {/*Список кранов*/}
