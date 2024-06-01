@@ -8,7 +8,7 @@ import Terex from '../assets/terex_logo.png';
 import Potain from '../assets/potain_logo.jpg';
 import {Link} from "react-router-dom";
 
-import '../Components/style.css'
+import '../style.css'
 export default function RentServ() {
     return (
         <div className={'main-RentServ'}>
@@ -28,7 +28,7 @@ export default function RentServ() {
             <Row>
                 <div style={{width: '30%'}}>
                     <Col key={1}>
-                        <Link to='/Cranes/1'>
+                        <Link to='/Cranes'>
                             <Card>
                                 <Card.Img variant="top" src={libHer}/>
                                 <Card.Body>
@@ -43,7 +43,7 @@ export default function RentServ() {
                 </div>
                 <div style={{width: '30%'}}>
                     <Col key={2}>
-                        <Link to='/Cranes/2'>
+                        <Link to='/Cranes'>
                             <Card>
                                 <Card.Img variant="top" src={Terex}/>
                                 <Card.Body>
@@ -58,7 +58,7 @@ export default function RentServ() {
                 </div>
                 <div style={{width: '30%'}}>
                     <Col key={3}>
-                        <Link to='/Cranes/3'>
+                        <Link to='/Cranes'>
                             <Card>
                                 <Card.Img variant="top" src={Potain}/>
                                 <Card.Body>
@@ -83,7 +83,7 @@ export default function RentServ() {
                     <p>Another instance of placeholder content for this other custom component. It is intended to mimic
                         what some real-world content would look like, and we're using it here to give the component a
                         bit of body and size.</p>
-                    <a href="#" className="stretched-link">Go somewhere</a>
+                    <a href="/Cranes" className="stretched-link">Go somewhere</a>
                 </div>
             </div>
             <div className="row g-0 bg-light position-relative">
@@ -95,7 +95,7 @@ export default function RentServ() {
                     <p>Another instance of placeholder content for this other custom component. It is intended to mimic
                         what some real-world content would look like, and we're using it here to give the component a
                         bit of body and size.</p>
-                    <a href="#" className="stretched-link">Go somewhere</a>
+                    <a href="/Cranes" className="stretched-link">Go somewhere</a>
                 </div>
             </div>
             <div className={'container px-4 py-5'}>

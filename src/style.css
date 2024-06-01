@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'Franklin Gothic Book';
-    src: url('../../public/fonts/franklin_gothic_book.eot'); /* IE 9 Compatibility Mode */
-    src: url('../../public/fonts/franklin_gothic_book.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-    url('../../public/fonts/franklin_gothic_book.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../../public/fonts/franklin_gothic_book.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-    url('../../public/fonts/franklin_gothic_book.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../../public/fonts/franklin_gothic_book.svg#franklin_gothic_book') format('svg'); /* Chrome < 4, Legacy iOS */
-}
 #root{
     font-family: 'Franklin Gothic Book', sans-serif;
     background-size: 5%;
