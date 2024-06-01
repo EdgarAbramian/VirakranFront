@@ -14,8 +14,8 @@ export default function MainSlides() {
                 <img src={slideImg}
                      className="d-block w-100"  alt='...' />
                 <MDBCarouselCaption>
-                    <h5>First slide label</h5>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h5>ViraKran</h5>
+                    {/*<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>*/}
                 </MDBCarouselCaption>
             </MDBCarouselItem>
             <MDBCarouselItem itemId={2}>

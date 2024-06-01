@@ -12,6 +12,8 @@ import Projects from "./Pages/Projects";
 import CraneDes from "./Pages/CraneDes";
 import Contacts from "./Pages/Contacts";
 import RentService from "./Pages/RentService";
+import Adm from "./Pages/adm"
+import BasicExample from "./Pages/adminlogin";
 
 const router = createBrowserRouter([
     {
@@ -47,6 +49,16 @@ const router = createBrowserRouter([
     {
         path: '/RentService/',
         element: <RentService/>,
+        errorElement: <h1>404</h1>,
+    },
+    {
+        path: '/adm/add/',
+        element: <Adm/>,
+        errorElement: <h1>404</h1>,
+    },
+    {
+        path: 'adm/login/',
+        element: BasicExample(),
         errorElement: <h1>404</h1>,
     }
 ]);

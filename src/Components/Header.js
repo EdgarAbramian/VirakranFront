@@ -3,7 +3,7 @@ import React, {Component, Fragment} from 'react';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../style.css'
+import '../Components/style.css'
 
 import logo from '../assets/logoVK.png'
 import telephone_logo from '../assets/telephone-inbound.png'
@@ -100,8 +100,8 @@ export default class Header extends Component {
                                                 <ul className="dropdown-menu">
                                                     <li><Link className="dropdown-item" to="/RentService">Аренда Грузоподемной
                                                         техники</Link></li>
-                                                    <li><Link className="dropdown-item" to="/RentService">Монтаж Грузоподемной
-                                                        техники</Link></li>
+                                                    {/*<li><Link className="dropdown-item" to="#">Монтаж Грузоподемной*/}
+                                                    {/*    техники</Link></li>*/}
                                                 </ul>
                                             </li>
                                             {/*Список кранов*/}
@@ -125,8 +125,10 @@ export default class Header extends Component {
                                             </li>
                                         </ul>
                                         <div className="text-white m-1 p-3">
-                                            <button className={' btn btn-outline-light'} type='submit'>Оставить заявку</button>
-
+                                            <button type="button"
+                                                    className="btn getBtn border border-white rounded-0">Оставить
+                                                Заявку
+                                            </button>
                                         </div>
                                     </div>
                                 </nav>

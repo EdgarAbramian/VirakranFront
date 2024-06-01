@@ -8,7 +8,7 @@ import Terex from '../assets/terex_logo.png';
 import Potain from '../assets/potain_logo.jpg';
 import {Link} from "react-router-dom";
 
-import '../style.css'
+import '../Components/style.css'
 export default function RentServ() {
     return (
         <div className={'main-RentServ'}>
@@ -28,7 +28,7 @@ export default function RentServ() {
             <Row>
                 <div style={{width: '30%'}}>
                     <Col key={1}>
-                        <Link to='/Cranes'>
+                        <Link to='/Cranes/1'>
                             <Card>
                                 <Card.Img variant="top" src={libHer}/>
                                 <Card.Body>
@@ -41,9 +41,9 @@ export default function RentServ() {
                         </Link>
                     </Col>
                 </div>
-                <div style={{width: '30%'}}>
+                <div style={{width: '36.08%'}}>
                     <Col key={2}>
-                        <Link to='/Cranes'>
+                        <Link to='/Cranes/2'>
                             <Card>
                                 <Card.Img variant="top" src={Terex}/>
                                 <Card.Body>
@@ -56,9 +56,9 @@ export default function RentServ() {
                         </Link>
                     </Col>
                 </div>
-                <div style={{width: '30%'}}>
+                <div style={{width: '31%'}}>
                     <Col key={3}>
-                        <Link to='/Cranes'>
+                        <Link to='/Cranes/3'>
                             <Card>
                                 <Card.Img variant="top" src={Potain}/>
                                 <Card.Body>
@@ -73,40 +73,40 @@ export default function RentServ() {
                 </div>
 
             </Row>
-            <div className="row g-0 bg-light position-relative">
-                <div className="col-md-6 mb-md-0 p-md-4">
-                    <img src={libHer} className="w-100" alt="..."/>
-                </div>
+            {/*<div className="row g-0 bg-light position-relative">*/}
+            {/*    <div className="col-md-6 mb-md-0 p-md-4">*/}
+            {/*        <img src={libHer} className="w-100" alt="..."/>*/}
+            {/*    </div>*/}
 
-                <div className="col-md-6 p-4 ps-md-0">
-                    <h5 className="mt-0">Columns with stretched link</h5>
-                    <p>Another instance of placeholder content for this other custom component. It is intended to mimic
-                        what some real-world content would look like, and we're using it here to give the component a
-                        bit of body and size.</p>
-                    <a href="/Cranes" className="stretched-link">Go somewhere</a>
-                </div>
-            </div>
-            <div className="row g-0 bg-light position-relative">
-                <div className="col-md-6 mb-md-0 p-md-4">
-                    <img src={Potain} className="w-100" alt="..."/>
-                </div>
-                <div className="col-md-6 p-4 ps-md-0">
-                    <h5 className="mt-0">Columns with stretched link</h5>
-                    <p>Another instance of placeholder content for this other custom component. It is intended to mimic
-                        what some real-world content would look like, and we're using it here to give the component a
-                        bit of body and size.</p>
-                    <a href="/Cranes" className="stretched-link">Go somewhere</a>
-                </div>
-            </div>
-            <div className={'container px-4 py-5'}>
-                {/*<h2 className={'class="pb-2 border-bottom"'}>Аренда Грузоподемной техники</h2>*/}
-                <div className={'row g-4 py-5 row-cols-1 row-cols-lg-3'}>
-                    <figure className="figure">
-                        <img src="../assets/potain_logo.jpg" className="figure-img img-fluid rounded" alt=""/>
-                        <figcaption className="figure-caption text-end">A caption for the above image.</figcaption>
-                    </figure>
-                </div>
-            </div>
+            {/*    <div className="col-md-6 p-4 ps-md-0">*/}
+            {/*        <h5 className="mt-0">Columns with stretched link</h5>*/}
+            {/*        <p>Another instance of placeholder content for this other custom component. It is intended to mimic*/}
+            {/*            what some real-world content would look like, and we're using it here to give the component a*/}
+            {/*            bit of body and size.</p>*/}
+            {/*        <a href="#" className="stretched-link">Go somewhere</a>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
+            {/*<div className="row g-0 bg-light position-relative">*/}
+            {/*    <div className="col-md-6 mb-md-0 p-md-4">*/}
+            {/*        <img src={Potain} className="w-100" alt="..."/>*/}
+            {/*    </div>*/}
+            {/*    <div className="col-md-6 p-4 ps-md-0">*/}
+            {/*        <h5 className="mt-0">Columns with stretched link</h5>*/}
+            {/*        <p>Another instance of placeholder content for this other custom component. It is intended to mimic*/}
+            {/*            what some real-world content would look like, and we're using it here to give the component a*/}
+            {/*            bit of body and size.</p>*/}
+            {/*        <a href="#" className="stretched-link">Go somewhere</a>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
+            {/*<div className={'container px-4 py-5'}>*/}
+            {/*    /!*<h2 className={'class="pb-2 border-bottom"'}>Аренда Грузоподемной техники</h2>*!/*/}
+            {/*    <div className={'row g-4 py-5 row-cols-1 row-cols-lg-3'}>*/}
+            {/*        <figure className="figure">*/}
+            {/*            <img src="../assets/potain_logo.jpg" className="figure-img img-fluid rounded" alt=""/>*/}
+            {/*            <figcaption className="figure-caption text-end">A caption for the above image.</figcaption>*/}
+            {/*        </figure>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
 
         </div>
     );

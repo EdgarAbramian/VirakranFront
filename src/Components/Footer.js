@@ -1,7 +1,7 @@
 import React from 'react';
 import {MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn, MDBInput} from 'mdb-react-ui-kit';
 
-import '../style.css';
+import './style.css';
 
 
 export default function Footer() {
@@ -22,7 +22,9 @@ export default function Footer() {
                             </MDBCol>
 
                             <MDBCol size="auto">
-                                <button className={' btn btn-outline-light'} type='submit'>Подписаться</button>
+                                <MDBBtn outline color='light' type='submit' className='mb-4'>
+                                    Подписаться
+                                </MDBBtn>
                             </MDBCol>
                         </MDBRow>
                     </form>
@@ -37,7 +39,7 @@ export default function Footer() {
                                     ViraKran
                                 </h6>
                                 <p>
-                                    Аренда и монтаж грузоподемной техники, на территории всей Российской федерации и
+                                    Аренда и монтаж грузоподемной техники на территории всей Российской федерации и
                                     СНГ.
                                 </p>
                             </MDBCol>
@@ -92,7 +94,7 @@ export default function Footer() {
                                     Virakran-yug@mail.ru
                                 </p>
                                 <p>
-                                    <MDBIcon icon="phone" className="me-3"/> + 7 987 169 63 55
+                                    <MDBIcon icon="phone" className="me-3"/> + 7 777 777 77 77
                                 </p>
                                 <p>
                                     <MDBIcon icon="print" className="me-3"/> + 7 987 169 63 55

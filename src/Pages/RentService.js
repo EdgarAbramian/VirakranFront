@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../style.css'
+import '../Components/style.css'
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import RentServ from "../Components/RentServ";
@@ -16,11 +16,9 @@ export default function RentService() {
 
             <div className="AboutContent">
                 <p>
-                    Наша компания имеет башенные краны 3 надежным и проверенных фирм. В зависимости от необходимых
-                    условий и критериев мы поможем Вам подобрать наилучшее решение с гарантией качества.
-                    <br/>
-                    Ниже приведены фирмы башенных кранов, доступных для аренды. <br/>
-                    <br/>
+                    В наше время развитие современных технологий позволяет строить объекты разной сложности в
+                    короткие строки и, самое главное, на высоком техническом уровне, но часто случается так, что обычные краны не
+                    могут обслужить<br/>
                 </p>
             </div>
             <RentServ></RentServ>
