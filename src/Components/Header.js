@@ -100,8 +100,8 @@ export default class Header extends Component {
                                                 <ul className="dropdown-menu">
                                                     <li><Link className="dropdown-item" to="/RentService">Аренда Грузоподемной
                                                         техники</Link></li>
-                                                    <li><Link className="dropdown-item" to="#">Монтаж Грузоподемной
-                                                        техники</Link></li>
+                                                    {/*<li><Link className="dropdown-item" to="#">Монтаж Грузоподемной*/}
+                                                    {/*    техники</Link></li>*/}
                                                 </ul>
                                             </li>
                                             {/*Список кранов*/}
