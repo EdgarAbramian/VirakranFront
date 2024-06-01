@@ -10,23 +10,23 @@ export default function Footer() {
             <MDBFooter className='text-center text-lg-start text-muted'>
                 <section className='m-5'>
                     <form action='' className='My-Form-for-email'>
-                        <MDBRow className='d-flex justify-content-center m-5'>
-                            <MDBCol size="auto">
-                                <p className='pt-2'>
-                                    <strong>Подпишитесь на рассылку ВираКран</strong>
-                                </p>
-                            </MDBCol>
+                        {/*<MDBRow className='d-flex justify-content-center m-5'>*/}
+                        {/*    <MDBCol size="auto">*/}
+                        {/*        <p className='pt-2'>*/}
+                        {/*            <strong>Подпишитесь на рассылку ВираКран</strong>*/}
+                        {/*        </p>*/}
+                        {/*    </MDBCol>*/}
 
-                            <MDBCol md='5' start>
-                                <MDBInput contrast type='email' label='Адрес электронной почты' className='mb-4'/>
-                            </MDBCol>
+                        {/*    <MDBCol md='5' start>*/}
+                        {/*        <MDBInput contrast type='email' label='Адрес электронной почты' className='mb-4'/>*/}
+                        {/*    </MDBCol>*/}
 
-                            <MDBCol size="auto">
-                                <MDBBtn outline color='light' type='submit' className='mb-4'>
-                                    Подписаться
-                                </MDBBtn>
-                            </MDBCol>
-                        </MDBRow>
+                        {/*    <MDBCol size="auto">*/}
+                        {/*        <MDBBtn outline color='light' type='submit' className='mb-4'>*/}
+                        {/*            Подписаться*/}
+                        {/*        </MDBBtn>*/}
+                        {/*    </MDBCol>*/}
+                        {/*</MDBRow>*/}
                     </form>
                 </section>
                 <hr className='m-5'/>
